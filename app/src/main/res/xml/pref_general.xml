@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_ip_value"
+        android:summary="@string/pref_default_ip_value"
+        android:inputType="textCapWords"
+        android:key="ip"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_ip"
+        android:positiveButtonText="@string/ok"
+        android:negativeButtonText="@string/cancel"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_port_value"
+        android:summary="@string/pref_default_port_value"
+        android:inputType="textCapWords"
+        android:key="port"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_port"
+        android:positiveButtonText="@string/ok"
+        android:negativeButtonText="@string/cancel"/>
+
+</PreferenceScreen>

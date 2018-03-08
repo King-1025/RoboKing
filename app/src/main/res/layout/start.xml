@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="@android:dimen/app_icon_size">
+
+    <Button
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="#000"
+        android:text="@string/control"
+        android:textColor="#888"
+        android:textSize="@android:dimen/app_icon_size"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="#888"
+        android:text="@string/setting"
+        android:textColor="@android:color/background_light"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:text="@string/about"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@android:dimen/app_icon_size" />
+</LinearLayout>
+    <!--
+    ?android:attr/colorFocusedHighlight
+    @android:color/holo_green_light
+    @android:color/holo_purple
+    -->

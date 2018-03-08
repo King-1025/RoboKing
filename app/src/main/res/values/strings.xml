@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">独角控制</string>
+    <string name="control">控制</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="title_activity_settings">设置</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_general">基本</string>
+    <string name="pref_ip">IP地址</string>
+    <string name="pref_default_ip_value">192.168.1.1</string>
+    <string name="pref_port">端口号</string>
+    <string name="pref_default_port_value">2001</string>
+    <string name="pref_header_video">视频/图像</string>
+    <string name="pref_video_url">视频源URL</string>
+    <string name="pref_default_video_url_value">rtsp://admin:root123456@192.168.1.2:554/mpeg4/ch1/main/av_stream</string>
+    <string name="pref_video_quality">视频质量</string>
+    <string name="video_notify">视频正在加载中..</string>
+    <string-array name="pref_video_quality_show">
+        <item>流畅</item>
+        <item>普通</item>
+        <item>高质</item>
+    </string-array>
+    <string-array name="pref_video_quality_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="pref_video_show_title">显示大小</string>
+
+    <string name="pref_screenshot_mode">图片保存格式</string>
+    <string-array name="pref_screenshot_show">
+        <item>.jpeg</item>
+        <item>.png</item>
+        <item>.webp</item>
+    </string-array>
+    <string-array name="pref_screenshot_show_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="pref_screenshot_save_path">图片保存路径</string>
+    <string-array name="pref_video_show">
+        <item>原始</item>
+        <item>半屏</item>
+        <item>全屏</item>
+    </string-array>
+    <string-array name="pref_video_show_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="pref_header_control">控制</string>
+    <string name="pref_header_other">其它</string>
+    <string name="override_control_mode">自定义控制模式</string>
+    <string name="control_front">前进</string>
+    <string name="control_back">后退</string>
+    <string name="control_left">左转</string>
+    <string name="control_right">右转</string>
+    <string name="control_stop">停止</string>
+    <string name="control_lf">左前</string>.
+    <string name="control_rf">右前</string>
+    <string name="control_lb">左后</string>
+    <string name="control_rb">右后</string>
+    <string name="flag">\@2017 寒冰小小莉 beta</string>
+    <string name="about_details">本应用由寒冰小小莉提供，详情请联系QQ:1543641386。\n注意：此版本属于内部版本，仅供测试使用！</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_video_url_value"
+        android:summary="@string/pref_default_video_url_value"
+        android:key="video_url"
+        android:maxLines="3"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_video_url"
+        android:positiveButtonText="@string/ok"
+        android:negativeButtonText="@string/cancel"/>
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_video_show"
+        android:entryValues="@array/pref_video_show_value"
+        android:key="list_video_show"
+        android:title="@string/pref_video_show_title"
+        android:positiveButtonText="@string/ok"
+        android:negativeButtonText="@string/cancel"/>
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_video_quality_show"
+        android:entryValues="@array/pref_video_quality_value"
+        android:key="list_video_quality_show"
+        android:title="@string/pref_video_quality"
+        android:positiveButtonText="@string/ok"
+        android:negativeButtonText="@string/cancel"/>
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_screenshot_show"
+        android:entryValues="@array/pref_screenshot_show_value"
+        android:key="list_screenshot_show"
+        android:title="@string/pref_screenshot_mode"
+        android:positiveButtonText="@string/ok"
+        android:negativeButtonText="@string/cancel"/>
+    <EditTextPreference
+        android:key="screenshot_save_path"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_screenshot_save_path" />
+
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/screenshot" android:title="截图"></item>
+    <item android:id="@+id/look_photo" android:title="查看"></item>
+    <item android:id="@+id/control" android:title="控制"></item>
+</menu>
